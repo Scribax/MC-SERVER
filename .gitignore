@@ -1,0 +1,55 @@
+# ===================================================================
+# GITIGNORE PARA SERVIDOR MINECRAFT FORGE 1.20.1
+# ===================================================================
+
+# Archivos del mundo (muy grandes)
+world/
+# Si quieres incluir el mundo, descomenta la siguiente línea:
+# !world/
+
+# Logs y archivos temporales
+logs/
+*.log
+*.log.*
+crash-reports/
+debug/
+
+# Backups (muy grandes)
+backups/
+*.tar.gz
+
+# Archivos de configuración específicos del servidor
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+usernamecache.json
+whitelist.json
+
+# Archivos de servidor generados
+server.jar
+minecraft_server.*.jar
+
+# Archivos temporales de Java
+hs_err_pid*.log
+replay_pid*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs del gestor
+server_manager.log
+
+# Mods de cliente (que movimos)
+mods_client/
+
+# Librerías (se descargan automáticamente)
+libraries/
+versions/
+
+# Cache de Forge
+.cache/
